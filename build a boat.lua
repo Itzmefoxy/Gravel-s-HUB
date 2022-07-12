@@ -4,11 +4,11 @@
         Icon = "rbxthumb://type=Asset&id=5224230914&w=150&h=150"})
     Duration = 16;
     
-    wait(10)
+    wait(3)
     
 	game:GetService("StarterGui"):SetCore("SendNotification", { 
         Title = "Loaded!";
-        Text = "Loaded in 10.00 seconds";
+        Text = "Enjoy";
         Icon = "rbxthumb://type=Asset&id=6177578071&w=150&h=150"})
     Duration = 16;
     
