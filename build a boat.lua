@@ -1,19 +1,3 @@
-	game:GetService("StarterGui"):SetCore("SendNotification", { 
-        Title = "Loading...";
-        Text = "It may takes a few seconds";
-        Icon = "rbxthumb://type=Asset&id=5224230914&w=150&h=150"})
-    Duration = 16;
-    
-    wait(3)
-    
-	game:GetService("StarterGui"):SetCore("SendNotification", { 
-        Title = "Loaded!";
-        Text = "Enjoy";
-        Icon = "rbxthumb://type=Asset&id=6177578071&w=150&h=150"})
-    Duration = 16;
-    
-    wait(0.3)
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Gravel's Hub BUILD A BOAT", "Midnight")
 
