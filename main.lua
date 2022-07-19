@@ -9,7 +9,7 @@ HomeSection:NewLabel("Please enter the key from discord")
 
 HomeSection:NewTextBox("TextboxText", "TextboxInfo", function(txt)
 	if txt == "QelNPc1sCueI6jlyVtvg045G2VraBRQPTcNRYNVii9H1bNfupz5eTE4WhMBI" then
-      loadstring()
+      loadstring(game:HttpGet(("https://raw.githubusercontent.com/Itzmefoxy/Gravel-s-HUB/main/home.lua")))(
       else
       print("Key Invalid!")
       end
