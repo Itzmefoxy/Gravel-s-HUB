@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Gravel's Hub BUILD A BOAT", "Midnight")
+local Window = Library.CreateLib("Gravel's Hub ENTER KEY", "Midnight")
 
 local Tab = Window:NewTab("Home")
 
