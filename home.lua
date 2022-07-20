@@ -7,4 +7,6 @@ local HomeSection = Tab:NewSection("Welcome to Gravel's hub")
 
 HomeSection:NewButton("Build a boat", "Show Build a boat version", function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Itzmefoxy/Gravel-s-HUB/main/build%20a%20boat.lua")))()
+HomeSection:NewButton("Universal", "Universal version", function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Itzmefoxy/Gravel-s-HUB/main/build%20a%20boat.lua")))()
 end)
